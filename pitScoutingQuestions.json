@@ -1,0 +1,69 @@
+
+{
+	"Information": [
+		[
+			"Question Description (Text)",
+			"Question Type (ex. multipleChoice, textInput)",
+			"Possible Answers (MUST BE PUT AS AN ARRAY)"
+		]
+		
+	],
+	
+	"GameSpecificQuestions": [
+		[
+			"Does the robot have an auto?", 
+			"multipleChoice",
+			["Yes", "No"],
+			"required"
+		],
+		[
+			"Does the robot climb?", 
+			"multipleChoice",
+			["Yes", "No"],
+			"required"
+		],
+		[
+			"If they can climb, how high can they climb?", 
+			"multipleChoice",
+			["Level 1", "Level 2", "Level 3"],
+			"optional"
+		],
+		[
+			"Which of the following does the robot have? (Select all that apply)",
+			"multipleSelection",
+			["Ground Intake", "Top Intake", "Auto", "None of the above"],
+			"required"
+		],
+		[ 
+			"Is their robot specialized in offense or defense?",
+			"multipleChoice",
+			["Offense", "Defense", "Not Given/Both"],
+			"required"
+		]
+	],
+	"Hardware Questions": [
+		[
+			"From their knowledge, what do they think will be their next mechanical or programming issue?",
+			"freeResponse",
+			"required"
+		],
+		[ 
+			"Any other comments, insights, or issues with the robot?",
+			"freeResponse",
+			"optional"
+		]
+	],
+	"Scouting Questions": [
+		[
+			"Does the team also do pit scouting?",
+			"multipleChoice",
+			["Yes", "No"],
+			"required"
+		],
+		[ 
+			"Any other comments, insights, or issues with the robot?",
+			"freeResponse",
+			"optional"
+		]
+	]
+}

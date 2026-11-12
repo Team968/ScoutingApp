@@ -1,0 +1,38 @@
+@keyframes menuIn {
+    from {
+        left: -250px;
+    }
+
+    to {
+        left: 0;
+    }
+}
+
+@keyframes menuOut {
+    from {
+        left: 0;
+    }
+
+    to {
+        left: -250px;
+    }
+}
+
+:root {
+    --bg: #222222;
+    --txt: #d7d7d7;
+    
+    
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    margin: 12px;
+}
+
+body {
+    background-color: var(--bg);
+    color: var(--txt);
+}
+
+* {
+    color: var(--txt);
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; 
+}

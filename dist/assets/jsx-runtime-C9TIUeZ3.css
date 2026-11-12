@@ -1,0 +1,1 @@
+@keyframes menuIn{0%{left:-250px}to{left:0}}@keyframes menuOut{0%{left:0}to{left:-250px}}:root{--bg:#222;--txt:#d7d7d7;margin:12px;font-family:Gill Sans,Gill Sans MT,Calibri,Trebuchet MS,sans-serif}body{background-color:var(--bg);color:var(--txt)}*{color:var(--txt);font-family:Gill Sans,Gill Sans MT,Calibri,Trebuchet MS,sans-serif}
